@@ -1,19 +1,21 @@
 {
 	"nodes":[
 		{"id":"27fa928dc0f89723","type":"file","file":"Programming Python/1Base.md","x":-800,"y":-40,"width":407,"height":409,"color":"4"},
-		{"id":"a6b084e9a5590007","type":"text","text":"<p style=\"font-size: 100px\">Python<p>","x":-581,"y":-840,"width":381,"height":200,"color":"6"},
-		{"id":"eb9059e0d8280b3b","type":"file","file":"Programming Python/ModulesPython.md","x":360,"y":-360,"width":400,"height":397,"color":"2"},
 		{"id":"7897b7e8e7668d68","type":"text","text":"<p style=\"font-size: 100px\">Type's<p>","x":-840,"y":600,"width":340,"height":180,"color":"5"},
 		{"id":"2f4284a482ddff8a","type":"file","file":"Programming Python/4DataArray.md","x":-518,"y":1160,"width":400,"height":400,"color":"#cec8fe"},
 		{"id":"986566bf4a13a858","type":"file","file":"Programming Python/3DataTypes.md","x":-1320,"y":960,"width":400,"height":400,"color":"#ff0000"},
-		{"id":"b09a23c865689cf0","type":"file","file":"Programming Python/5Function.md","x":-1840,"y":320,"width":400,"height":370,"color":"#007bff"}
+		{"id":"b09a23c865689cf0","type":"file","file":"Programming Python/5Function.md","x":-1840,"y":320,"width":400,"height":370,"color":"#007bff"},
+		{"id":"d49b2354109f64b9","type":"file","file":"Programming Python/0Install.md","x":-670,"y":-680,"width":400,"height":400},
+		{"id":"a6b084e9a5590007","type":"text","text":"<p style=\"font-size: 100px\">Python<p>","x":-651,"y":-1081,"width":381,"height":160,"color":"6"},
+		{"id":"eb9059e0d8280b3b","type":"file","file":"Programming Python/ModulesPython.md","x":320,"y":-560,"width":400,"height":397,"color":"2"}
 	],
 	"edges":[
-		{"id":"35986024b157f087","fromNode":"a6b084e9a5590007","fromSide":"bottom","toNode":"27fa928dc0f89723","toSide":"top","color":"4","label":"Base"},
+		{"id":"35986024b157f087","fromNode":"d49b2354109f64b9","fromSide":"bottom","toNode":"27fa928dc0f89723","toSide":"top","color":"4","label":"Base"},
 		{"id":"0082c81df21ad844","fromNode":"a6b084e9a5590007","fromSide":"right","toNode":"eb9059e0d8280b3b","toSide":"top","color":"2","label":"Modules"},
 		{"id":"6c6d005a0813d631","fromNode":"27fa928dc0f89723","fromSide":"bottom","toNode":"7897b7e8e7668d68","toSide":"top","color":"5"},
 		{"id":"d880be8dbc6ab8cf","fromNode":"7897b7e8e7668d68","fromSide":"bottom","toNode":"986566bf4a13a858","toSide":"top","color":"#a80b0b","label":"String"},
 		{"id":"bb5ea732744f9954","fromNode":"7897b7e8e7668d68","fromSide":"right","toNode":"2f4284a482ddff8a","toSide":"top","color":"#918cae","label":"DataArray"},
-		{"id":"81e8bd2022116d33","fromNode":"27fa928dc0f89723","fromSide":"left","toNode":"b09a23c865689cf0","toSide":"top","color":"#104783","label":"Base Function's"}
+		{"id":"81e8bd2022116d33","fromNode":"27fa928dc0f89723","fromSide":"left","toNode":"b09a23c865689cf0","toSide":"top","color":"#104783","label":"Base Function's"},
+		{"id":"dbba631e3b3a217a","fromNode":"a6b084e9a5590007","fromSide":"bottom","toNode":"d49b2354109f64b9","toSide":"top","label":"Install"}
 	]
 }
