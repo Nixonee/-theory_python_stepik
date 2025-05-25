@@ -509,3 +509,99 @@ print(hex(18765))
 0x96
 0x494d
 ```
+## #Функция `bool()`
+
+Для приведения других типов данных к булеву существует функция `bool()`, работающая по следующим соглашениям:
+
+- **строки:** пустая строка – ложь (`False`), непустая строка – истина (`True`);
+- **числа:** нулевое число – ложь (`False`), ненулевое число (в том числе и меньшее нуля) – истина (`True`);
+- **списки:** пустой список – ложь (`False`), непустой – истина (`True`).
+
+Приведенный ниже код:
+
+```python
+print(bool('Beegeek'))
+print(bool(17))
+print(bool(['apple', 'cherry']))
+print(bool())
+print(bool(''))
+print(bool(0))
+print(bool([]))
+```
+
+выводит:
+
+```no-highlight
+True
+True
+True
+False
+False
+False
+False
+```
+
+Если функцию `bool()` вызвать без аргументов, то она вернет значение `False`
+## #Функция `isinstance()`
+
+В языке Python имеется встроенная функция `isinstance()` для проверки соответствия типа объекта какому-либо типу данных.
+
+Приведенный ниже код:
+
+```python
+print(isinstance(3, int))
+print(isinstance(3.5, float))
+print(isinstance('Beegeek', str))
+print(isinstance([1, 2, 3], list))
+print(isinstance(True, bool))
+```
+
+выводит:
+
+```no-highlight
+True
+True
+True
+True
+True
+```
+
+Приведенный ниже код:
+
+```python
+print(isinstance(3.5, int))
+print(isinstance('Beegeek', float))
+```
+
+выводит:
+
+```no-highlight
+False
+False
+```
+
+## #Функция `type()`
+
+В языке Python имеется встроенная функция `type()`, позволяющая получить тип указанного в качестве аргумента объекта.
+
+Приведенный ниже код:
+
+```python
+print(type(3))
+print(type(3.5))
+print(type('Beegeek'))
+print(type([1, 2, 3]))
+print(type(True))
+```
+
+выводит:
+
+```1c
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'list'>
+<class 'bool'>
+```
+
+Функция `type()` часто бывает полезна при отладке программного кода, а также в реальном коде, особенно в объектно-ориентированном программировании с наследованием и пользовательскими строковыми представлениями.
