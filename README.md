@@ -13,7 +13,7 @@
 | Номер | Тема                             | Файл                                   |
 | ----- | -------------------------------- | -------------------------------------- |
 | 1     | Введение в Python                | [1Base.md](1Base.md)                   |
-| 3     | Работа со строками               | [3String.md](3String.md)               |
+| 3     | Типы данных              | [3DataTypes.md](3DataTypes.md)               |
 | 4     | Списки и другие структуры данных | [4DataArray.md](4DataArray.md)         |
 | 5     | Функции                          | [5Function.md](5Function.md)           |
 | —     | Модули Python                    | [ModulesPython.md](ModulesPython.md)   |
